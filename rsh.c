@@ -94,7 +94,7 @@ int main() {
 	else if (strcmp(cmd,"cd") == 0) {
 		// run cd using chdir
 		if (params[2] != NULL) {
-			printf("cd: too many arguments\n");
+			printf("-rsh: cd: too many arguments\n");
 		}
 		else if (params[1] != NULL) {
 			chdir(params[1]);
