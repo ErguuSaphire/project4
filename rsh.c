@@ -100,7 +100,7 @@ int main() {
 			chdir(params[1]);
 		}
 		else {
-			printf("cd: no path given \n");
+			printf("-rsh: cd: no path given \n");
 		}
 	}
 	else {
